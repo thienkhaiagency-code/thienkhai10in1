@@ -62,7 +62,7 @@ Camscanner = type=http-response,pattern=https:\/\/(api|api-cs.*)\.intsig\.net\/p
 BeautyPlus = type=http-response,pattern=https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance),requires-body=true,max-size=-1,timeout=60,script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/BeautyPlus.js
 
 # 11. Locket Gold (thienkhaiagency-code/locketai)
-locket = type=http-response,pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/.*,requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/thienkhaiagency-code/locketai/refs/heads/main/iutdyy.plugin
+locket = type=http-response,pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/.*,requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/thienkhaiagency-code/locketai/refs/heads/main/locketfix.js
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, -redirector*.googlevideo.com, premium*.truecaller.com, sub.store, api.revenuecat.com, api-mobile.soundcloud.com, api.picsart.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, api-account.kinemasters.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, spclient.wg.spotify.com, *spclient.spotify.com, firebaseremoteconfig.googleapis.com, api.locketcamera.com, *.locketcamera.com, us-central1-locket-4252a.cloudfunctions.net
